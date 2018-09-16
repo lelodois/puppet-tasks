@@ -1,0 +1,3 @@
+user { 'camomila':
+  ensure => 'present',
+}

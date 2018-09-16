@@ -1,0 +1,12 @@
+--list all types
+puppet resource --types
+
+-- Validate
+puppet parser validate user.pp
+
+-- Apply
+puppet apply user.pp --noop
+
+-- Describe attributes
+puppet describe {type} |more
+types: package, service, user
