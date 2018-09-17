@@ -4,7 +4,7 @@ package { 'ntp':
 
 file { '/etc/ntp.conf':
   ensure  => 'present',
-  content => 'server anyserver'
+  content => 'server 0.centos.pool.ntp.org iburst\n'
 }
 
 service { 'ntpd':

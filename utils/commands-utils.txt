@@ -10,3 +10,9 @@ puppet apply user.pp --noop
 -- Describe attributes
 puppet describe {type} |more
 types: package, service, user
+
+-- Module info
+puppet config print | grep -i module
+
+-- New module
+puppet module generate ntpmodule
