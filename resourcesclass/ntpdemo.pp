@@ -1,5 +1,5 @@
 # Class config do ntp
-class ntpdemo {
+class ntpmodule {
 
   $message = 'Finish install'
 
@@ -25,4 +25,4 @@ class ntpdemo {
   }
 }
 
-include ntpdemo
+include ntpmodule
